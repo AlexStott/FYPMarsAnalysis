@@ -5,15 +5,15 @@
 
 %Load image stack
 
-load('camera_00/imdata.mat');
+%load('camera_00/imdata.mat');
 images = [];
-for i = 1:30
-    imstring = strcat('camera_00/sim_',num2str(i));
-    imstring = strcat(imstring,'.tif');
+for i = 1:8
+    imstring = strcat('phoenix/mars',num2str(i));
+    imstring = strcat(imstring,'.img');
     images = [images imread(imstring)];
 end
-impla=[];
-for i = 1:215
-    impla = [impla; images(i,1:215)];
-end
-image(impla)
+%impla=[];
+%for i = 1:215
+%   impla = [impla; images(i,1:215)];
+%end
+%image(impla)
