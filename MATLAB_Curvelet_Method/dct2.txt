@@ -1,0 +1,7 @@
+The requested MATLAB function: dct2
+must be downloaded from the following ufficial web site:
+
+www.curvelet.org
+
+The authors thank the Curvelet.org team: 
+Emmanuel Candes, Laurent Demanet, David Donoho, Lexing Ying.

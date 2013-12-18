@@ -1,0 +1,19 @@
+ * ===================================================================================
+ * Copyright © 2012, Filippo Piccinini, Alessandro Bevilacqua, 
+ * Advanced Research Center on Electronic Systems (ARCES), 
+ * University of Bologna, Italy.
+ * All rights reserved.
+ *
+ * Any publication using this code must cite the respective article:
+ * -) F. Piccinini et al.,
+ * "Extended depth of focus in optical microscopy: assessment of exiting methods and 
+ * a new proposal",
+ * Microscopy Research and Technique.
+ *
+ * This program is free software; you can redistribute it and/or modify it 
+ * under the terms of the GNU General Public License version 2 (or higher) 
+ * as published by the Free Software Foundation. This program is 
+ * distributed WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+ * General Public License for more details.
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
