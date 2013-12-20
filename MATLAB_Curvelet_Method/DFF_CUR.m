@@ -122,7 +122,7 @@ for nf=1:stop_index
             StackGRAY(:,:,nf) = double(rgb2gray(OrigImg));
         end
     else
-        StackGRAY(:,:,nf) = double(Orig_img);
+        StackGRAY(:,:,nf) = double(OrigImg);%_img);
     end
     clear OrigImg name strnum
 end

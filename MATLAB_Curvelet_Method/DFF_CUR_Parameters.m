@@ -26,8 +26,12 @@ function parameters = DFF_CUR_Parameters()
 % MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
 % General Public License for more details.
 
-parameters.ImageBaseName                    = 'Dome1x40_0';         % Description: name of the image, without the final cardinal number. E.g.: 'ImageMesenchymal_' for the image: ImageMesenchymal_001.tif
-parameters.ImageFolder                      = 'C:\TestFolder\';     % Description: absolute path where the images that should be processed are stored (the last character must be the slash). E.g.: 'C:\TestFolder\'
-parameters.ImageFormat                      = '.tif';               % Description: format of the images. E.g.: '.jpg' or '.bmp' or '.tif' or etc.
-parameters.ImageIndexes                     = [001, 003, 004];      % Description: cardinal numbers of the images that should be processed. E.g.: [001, 003, 004] to process the images named ImageMesenchymal_001.tif, ImageMesenchymal_003.tif and ImageMesenchymal_004.tif
+% parameters.ImageBaseName                    = 'Dome1x40_0';         % Description: name of the image, without the final cardinal number. E.g.: 'ImageMesenchymal_' for the image: ImageMesenchymal_001.tif
+% parameters.ImageFolder                      = 'C:\TestFolder\';     % Description: absolute path where the images that should be processed are stored (the last character must be the slash). E.g.: 'C:\TestFolder\'
+% parameters.ImageFormat                      = '.tif';               % Description: format of the images. E.g.: '.jpg' or '.bmp' or '.tif' or etc.
+% parameters.ImageIndexes                     = [001, 003, 004];      % Description: cardinal numbers of the images that should be processed. E.g.: [001, 003, 004] to process the images named ImageMesenchymal_001.tif, ImageMesenchymal_003.tif and ImageMesenchymal_004.tif
+parameters.ImageBaseName                    = 'mars';         % Description: name of the image, without the final cardinal number. E.g.: 'ImageMesenchymal_' for the image: ImageMesenchymal_001.tif
+parameters.ImageFolder                      = 'C:\Users\Alex\Documents\GitHub\FYPMarsAnalysis\phoenix3\';     % Description: absolute path where the images that should be processed are stored (the last character must be the slash). E.g.: 'C:\TestFolder\'
+parameters.ImageFormat                      = '.png';               % Description: format of the images. E.g.: '.jpg' or '.bmp' or '.tif' or etc.
+parameters.ImageIndexes                     = [1, 2, 3,4,5,6,7,8,9,10,11,12,13,14,15,16];      % Description: cardinal numbers of the images that should be processed. E.g.: [001, 003, 004] to process the images named ImageMesenchymal_001.tif, ImageMesenchymal_003.tif and ImageMesenchymal_004.tif
 

@@ -54,7 +54,7 @@ stop_index = length(parameters.ImageIndexes);
 flag_rgb2gray_pca = 1;
 
 % GRAY CONVERSION PARAMETERS SET UP
-strnum = sprintf('%.3d',parameters.ImageIndexes(1));
+strnum = sprintf('%d',parameters.ImageIndexes(1));
 name = strcat(parameters.ImageFolder,parameters.ImageBaseName,strnum,parameters.ImageFormat);
 OrigImg = imread(name);
 if size(OrigImg,3) == 3
@@ -66,7 +66,7 @@ clear OrigImg name strnum
 if flag_rgb2gray_pca == 1
     if flag_3channels == 1
         for nf=1:stop_index
-            strnum = sprintf('%.3d',parameters.ImageIndexes(nf));
+            strnum = sprintf('%d',parameters.ImageIndexes(nf));
             name = strcat(parameters.ImageFolder,parameters.ImageBaseName,strnum,parameters.ImageFormat);
             OrigImg = imread(name);
             R = double(OrigImg(:,:,1));

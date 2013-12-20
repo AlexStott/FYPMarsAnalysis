@@ -6,7 +6,7 @@ classdef Image
     end
     methods
         function obj = Image(ImNum,im)
-            obj.height = ImNum*300*0.25-300*0.25;
+            obj.height = ImNum;
             obj.Im = im;
         end
     end
