@@ -58,7 +58,7 @@ tempval = 0;
 for i = 1:Xpixel
     for j = 1:Ypixel
         for k = 1:StackNum
-            if imagesfiltsmooth1(k).Im(j,i) > tempval
+            if abs(imagesfiltsmooth1(k).Im(j,i)) > tempval %abs(tempval)????????????????????
 %                SelectedImTexture(j,i) = imagesfiltsmooth1(k).Im(j,i);
 %                SelectedImHeight(j,i) = imagesfiltsmooth1(k).height;
                 if k > 0
@@ -66,7 +66,7 @@ for i = 1:Xpixel
                 else
                     SelectedImNum(j,i) = 1;
                 end
-                tempval = imagesfiltsmooth1(k).Im(j,i);
+                tempval = abs(imagesfiltsmooth1(k).Im(j,i));
             end     
         end 
         tempval = 0;
@@ -115,10 +115,10 @@ SelectedImTexture2 = filter2(mean,SelectedImTexture);
 % imagesc(SelectedImHeight)%Texture)
 % colormap(gray);
 % subplot(1,2,2)
-% imagesc(SelectedImHeight2)
+ imagesc(SelectedImTexture)
 
 %Plot image with the texture imposed on the surface
-mesh(SelectedImHeight2',SelectedImTexture2')
+%mesh(SelectedImHeight2',SelectedImTexture2')
 colormap(gray)
 imwrite(SelectedImTexture2,'textureOut.jpg')
 imwrite(SelectedImHeight2,'Height.jpg')
